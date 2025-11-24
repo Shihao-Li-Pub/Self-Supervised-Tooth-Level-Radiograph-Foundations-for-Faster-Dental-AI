@@ -161,18 +161,20 @@ for images, labels in dataloader:
 ## Resources on Zenodo (DOI: 10.5281/zenodo.17308747)
         
         
+        
+        
 ### Downstream Datasets
 - **ExAn-MTM Dataset.7z** — *41.08 MB*, `md5: ee822b8e231ce570c7d19ca92fef79d7`
 - **Panoramic Dental Dataset.7z** — *13.17 MB*, `md5: 4779446046ab2c6ea387e96abd57a9b1`
 
 ### Self-supervised checkpoints (include backbone **and** proj_head)
 **ViT / ConvNeXt V2 (public, internal, combined):**
-- `0_convnextv2_public_ssl.pth` — *112.85 MB*, `md5: 4ba9483039b302bd4e77d16fd64f5f7b`
-- `0_convnextv2_combined_ssl.pth` — *112.85 MB*, `md5: 3164bc10d5f6da9cefae2989e58e47d2`
-- `0_convnextv2_internal_ssl.pth` — *112.85 MB*, `md5: 07e17eaeb1b57d0661f3dcf90a5a998c`
-- `0_vit_combined_ssl.pth` — *86.63 MB*, `md5: 7bbdf511fb66b9c7216e612d379de843`
-- `0_vit_public_ssl.pth` — *86.63 MB*, `md5: d37fb4834cf48bba4cd906be5c9c5efb`
-- `0_vit_internal_ssl.pth` — *86.63 MB*, `md5: 264dc1eb16abd2563fbd428e0ea3c7a8`
+- `0_convnextv2_public_ssl.pth` — *112.85 MB*, `md5: ef662610c09379a2054cc2ac34856f26`
+- `0_convnextv2_combined_ssl.pth` — *112.85 MB*, `md5: 7ba1ba0a06cab6b6a698a5522218e088`
+- `0_convnextv2_internal_ssl.pth` — *112.85 MB*, `md5: 2222038f363ca26a628c930a4590357f`
+- `0_vit_combined_ssl.pth` — *86.63 MB*, `md5: 91e83df75d38106c43eae9570cc4f70b`
+- `0_vit_public_ssl.pth` — *86.63 MB*, `md5: cb3319b2c17f9d52dd65e0b39a632ae2`
+- `0_vit_internal_ssl.pth` — *86.63 MB*, `md5: e4f21d743553ab7ecad9e3c8d5914cf9`
 
 **Other backbones (combined):**
 - `1_densenet121_combined.pth` — *29.99 MB*, `md5: bb726a20c38d8c5a2c71fb1c298d35d3`
