@@ -3,12 +3,22 @@
 
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17308747-blue.svg)](https://doi.org/10.5281/zenodo.17308747)
 
-Zenodo Link will be publicly available after publication. 
+The source code for this study is publicly available in this GitHub repository, together with 16 pretrained backbone weight files (.pth) including the projection head, a backbone list with convenient weight-loading utilities, and example scripts demonstrating full fine-tuning on the benchmark downstream datasets as well as on users’ own datasets.  
+All pretrained weight files are archived on Zenodo at the DOI above. The Zenodo record will be made publicly accessible after publication of the paper.
 
 ## For Peer Review
-The model weights and two downstream datasets for peer review are available in the following folder:
+
+For the purpose of peer review, we additionally provide a temporary Google Drive folder containing:
+
+- Pretrained ViT backbone weights  
+- Pretrained ConvNeXt V2 backbone weights  
+- Two public downstream datasets used in our experiments  
+
+These materials can be accessed at:
+
 https://drive.google.com/drive/folders/1SVCgQTv3M-dGIywCpZ164VPrndHnOwR_?usp=drive_link
-        
+
+Please note that this Google Drive link is intended only for the review process and may be modified or removed after the completion of peer review. The full set of pretrained models and accompanying resources will remain permanently available via the Zenodo record linked above.
 
 ---
 
