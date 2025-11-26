@@ -3,7 +3,10 @@
 
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17308747-blue.svg)](https://doi.org/10.5281/zenodo.17308747)
 
-Zenodo Link will be publicly available after publication. The model weights and two downstream datasets for peer review are available in the following folder:
+Zenodo Link will be publicly available after publication. 
+
+## For Peer Review
+The model weights and two downstream datasets for peer review are available in the following folder:
 https://drive.google.com/drive/folders/1SVCgQTv3M-dGIywCpZ164VPrndHnOwR_?usp=drive_link
         
 
