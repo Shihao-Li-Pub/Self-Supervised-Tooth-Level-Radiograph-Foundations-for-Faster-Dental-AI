@@ -4,6 +4,7 @@
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17308747-blue.svg)](https://doi.org/10.5281/zenodo.17308747)
 
 The source code for this study is publicly available in this GitHub repository, together with 16 pretrained backbone weight files (.pth) including the projection head, a backbone list with convenient weight-loading utilities, and example scripts demonstrating full fine-tuning on the benchmark downstream datasets as well as on users’ own datasets.  
+
 All pretrained weight files are archived on Zenodo at the DOI above. The Zenodo record will be made publicly accessible after publication of the paper.
 
 ## For Peer Review
