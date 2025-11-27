@@ -1,5 +1,5 @@
-# Self-Supervised Tooth-Level Radiograph Foundations for Faster Dental AI Research and Application
-**“Self-Supervised Tooth-Level Radiograph Foundations for Faster Dental AI Research and Application.”**
+# Self-Supervised Tooth-Level Radiograph Foundations for Faster Dental AI 
+**“Self-Supervised Tooth-Level Radiograph Foundations for Faster Dental AI.”**
 
 [![DOI](https://img.shields.io/badge/Zenodo-10.5281%2Fzenodo.17308747-blue.svg)](https://doi.org/10.5281/zenodo.17308747)
 
