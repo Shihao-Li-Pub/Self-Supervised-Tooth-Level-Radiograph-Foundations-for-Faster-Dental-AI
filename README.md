@@ -93,9 +93,9 @@ from proj_head import proj_head
 backbone = ViT_backbone()
 
 # 2) Infer C from a dummy forward pass
-with torch.no_grad():
-    feat = backbone(torch.zeros(1, 1, 400, 304))  # ViT validated input size: (H, W) = (400, 304)
-    C = feat.shape[1]
+# with torch.no_grad():
+feat = backbone(torch.zeros(1, 1, 400, 304))  # ViT validated input size: (H, W) = (400, 304)
+C = feat.shape[1]
 
 # 3) Create the projection head with the matched input dim
 head = proj_head(in_dim=C)
@@ -123,8 +123,8 @@ load_backbone_and_head(backbone, head, ckpt)
 from backbone_list import convnextv2_backbone
 
 backbone = convnextv2_backbone()
-with torch.no_grad():
-    C = backbone(torch.zeros(1, 1, 320, 240)).shape[1]
+# with torch.no_grad():
+C = backbone(torch.zeros(1, 1, 320, 240)).shape[1]
 head = proj_head(in_dim=C)
 ```
 
