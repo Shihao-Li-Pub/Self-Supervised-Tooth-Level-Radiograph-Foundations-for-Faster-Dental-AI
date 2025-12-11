@@ -136,8 +136,8 @@ import torch.nn as nn
 num_classes = 2  # example
 
 backbone = ViT_backbone()  # or any backbone from backbone_list.py
-with torch.no_grad():
-    C = backbone(torch.zeros(1, 1, 400, 304)).shape[1]
+# with torch.no_grad():
+C = backbone(torch.zeros(1, 1, 400, 304)).shape[1]
 
 # Simple classifier head on top of pooled features
 classifier = nn.Linear(C, num_classes)
@@ -173,6 +173,8 @@ for images, labels in dataloader:
 ---
 
 ## Resources on Zenodo (DOI: 10.5281/zenodo.17308747)
+        
+        
         
         
         
